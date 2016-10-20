@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20C06C111DB8EE9A00C8CF56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C06C101DB8EE9A00C8CF56 /* AppDelegate.swift */; };
+		20C06C131DB8EE9A00C8CF56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C06C121DB8EE9A00C8CF56 /* ViewController.swift */; };
+		20C06C161DB8EE9A00C8CF56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20C06C141DB8EE9A00C8CF56 /* Main.storyboard */; };
+		20C06C181DB8EE9A00C8CF56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20C06C171DB8EE9A00C8CF56 /* Assets.xcassets */; };
+		20C06C1B1DB8EE9A00C8CF56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20C06C191DB8EE9A00C8CF56 /* LaunchScreen.storyboard */; };
+		20C06C261DB8EE9A00C8CF56 /* VocMasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C06C251DB8EE9A00C8CF56 /* VocMasterTests.swift */; };
+		20C06C311DB8EE9A00C8CF56 /* VocMasterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C06C301DB8EE9A00C8CF56 /* VocMasterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20C06C221DB8EE9A00C8CF56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20C06C051DB8EE9900C8CF56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20C06C0C1DB8EE9900C8CF56;
+			remoteInfo = VocMaster;
+		};
+		20C06C2D1DB8EE9A00C8CF56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20C06C051DB8EE9900C8CF56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20C06C0C1DB8EE9900C8CF56;
+			remoteInfo = VocMaster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20C06C0D1DB8EE9A00C8CF56 /* VocMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VocMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20C06C101DB8EE9A00C8CF56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		20C06C121DB8EE9A00C8CF56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20C06C151DB8EE9A00C8CF56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20C06C171DB8EE9A00C8CF56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20C06C1A1DB8EE9A00C8CF56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20C06C1C1DB8EE9A00C8CF56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20C06C211DB8EE9A00C8CF56 /* VocMasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VocMasterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20C06C251DB8EE9A00C8CF56 /* VocMasterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocMasterTests.swift; sourceTree = "<group>"; };
+		20C06C271DB8EE9A00C8CF56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20C06C2C1DB8EE9A00C8CF56 /* VocMasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VocMasterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20C06C301DB8EE9A00C8CF56 /* VocMasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocMasterUITests.swift; sourceTree = "<group>"; };
+		20C06C321DB8EE9A00C8CF56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20C06C0A1DB8EE9900C8CF56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20C06C1E1DB8EE9A00C8CF56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20C06C291DB8EE9A00C8CF56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20C06C041DB8EE9900C8CF56 = {
+			isa = PBXGroup;
+			children = (
+				20C06C0F1DB8EE9A00C8CF56 /* VocMaster */,
+				20C06C241DB8EE9A00C8CF56 /* VocMasterTests */,
+				20C06C2F1DB8EE9A00C8CF56 /* VocMasterUITests */,
+				20C06C0E1DB8EE9A00C8CF56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20C06C0E1DB8EE9A00C8CF56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20C06C0D1DB8EE9A00C8CF56 /* VocMaster.app */,
+				20C06C211DB8EE9A00C8CF56 /* VocMasterTests.xctest */,
+				20C06C2C1DB8EE9A00C8CF56 /* VocMasterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20C06C0F1DB8EE9A00C8CF56 /* VocMaster */ = {
+			isa = PBXGroup;
+			children = (
+				20C06C101DB8EE9A00C8CF56 /* AppDelegate.swift */,
+				20C06C121DB8EE9A00C8CF56 /* ViewController.swift */,
+				20C06C141DB8EE9A00C8CF56 /* Main.storyboard */,
+				20C06C171DB8EE9A00C8CF56 /* Assets.xcassets */,
+				20C06C191DB8EE9A00C8CF56 /* LaunchScreen.storyboard */,
+				20C06C1C1DB8EE9A00C8CF56 /* Info.plist */,
+			);
+			path = VocMaster;
+			sourceTree = "<group>";
+		};
+		20C06C241DB8EE9A00C8CF56 /* VocMasterTests */ = {
+			isa = PBXGroup;
+			children = (
+				20C06C251DB8EE9A00C8CF56 /* VocMasterTests.swift */,
+				20C06C271DB8EE9A00C8CF56 /* Info.plist */,
+			);
+			path = VocMasterTests;
+			sourceTree = "<group>";
+		};
+		20C06C2F1DB8EE9A00C8CF56 /* VocMasterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				20C06C301DB8EE9A00C8CF56 /* VocMasterUITests.swift */,
+				20C06C321DB8EE9A00C8CF56 /* Info.plist */,
+			);
+			path = VocMasterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20C06C0C1DB8EE9900C8CF56 /* VocMaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20C06C351DB8EE9A00C8CF56 /* Build configuration list for PBXNativeTarget "VocMaster" */;
+			buildPhases = (
+				20C06C091DB8EE9900C8CF56 /* Sources */,
+				20C06C0A1DB8EE9900C8CF56 /* Frameworks */,
+				20C06C0B1DB8EE9900C8CF56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VocMaster;
+			productName = VocMaster;
+			productReference = 20C06C0D1DB8EE9A00C8CF56 /* VocMaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20C06C201DB8EE9A00C8CF56 /* VocMasterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20C06C381DB8EE9A00C8CF56 /* Build configuration list for PBXNativeTarget "VocMasterTests" */;
+			buildPhases = (
+				20C06C1D1DB8EE9A00C8CF56 /* Sources */,
+				20C06C1E1DB8EE9A00C8CF56 /* Frameworks */,
+				20C06C1F1DB8EE9A00C8CF56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20C06C231DB8EE9A00C8CF56 /* PBXTargetDependency */,
+			);
+			name = VocMasterTests;
+			productName = VocMasterTests;
+			productReference = 20C06C211DB8EE9A00C8CF56 /* VocMasterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		20C06C2B1DB8EE9A00C8CF56 /* VocMasterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20C06C3B1DB8EE9A00C8CF56 /* Build configuration list for PBXNativeTarget "VocMasterUITests" */;
+			buildPhases = (
+				20C06C281DB8EE9A00C8CF56 /* Sources */,
+				20C06C291DB8EE9A00C8CF56 /* Frameworks */,
+				20C06C2A1DB8EE9A00C8CF56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20C06C2E1DB8EE9A00C8CF56 /* PBXTargetDependency */,
+			);
+			name = VocMasterUITests;
+			productName = VocMasterUITests;
+			productReference = 20C06C2C1DB8EE9A00C8CF56 /* VocMasterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20C06C051DB8EE9900C8CF56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Csipler Zoltan";
+				TargetAttributes = {
+					20C06C0C1DB8EE9900C8CF56 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					20C06C201DB8EE9A00C8CF56 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 20C06C0C1DB8EE9900C8CF56;
+					};
+					20C06C2B1DB8EE9A00C8CF56 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 20C06C0C1DB8EE9900C8CF56;
+					};
+				};
+			};
+			buildConfigurationList = 20C06C081DB8EE9900C8CF56 /* Build configuration list for PBXProject "VocMaster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20C06C041DB8EE9900C8CF56;
+			productRefGroup = 20C06C0E1DB8EE9A00C8CF56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20C06C0C1DB8EE9900C8CF56 /* VocMaster */,
+				20C06C201DB8EE9A00C8CF56 /* VocMasterTests */,
+				20C06C2B1DB8EE9A00C8CF56 /* VocMasterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20C06C0B1DB8EE9900C8CF56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20C06C1B1DB8EE9A00C8CF56 /* LaunchScreen.storyboard in Resources */,
+				20C06C181DB8EE9A00C8CF56 /* Assets.xcassets in Resources */,
+				20C06C161DB8EE9A00C8CF56 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20C06C1F1DB8EE9A00C8CF56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20C06C2A1DB8EE9A00C8CF56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20C06C091DB8EE9900C8CF56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20C06C131DB8EE9A00C8CF56 /* ViewController.swift in Sources */,
+				20C06C111DB8EE9A00C8CF56 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20C06C1D1DB8EE9A00C8CF56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20C06C261DB8EE9A00C8CF56 /* VocMasterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20C06C281DB8EE9A00C8CF56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20C06C311DB8EE9A00C8CF56 /* VocMasterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20C06C231DB8EE9A00C8CF56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20C06C0C1DB8EE9900C8CF56 /* VocMaster */;
+			targetProxy = 20C06C221DB8EE9A00C8CF56 /* PBXContainerItemProxy */;
+		};
+		20C06C2E1DB8EE9A00C8CF56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20C06C0C1DB8EE9900C8CF56 /* VocMaster */;
+			targetProxy = 20C06C2D1DB8EE9A00C8CF56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		20C06C141DB8EE9A00C8CF56 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20C06C151DB8EE9A00C8CF56 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20C06C191DB8EE9A00C8CF56 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20C06C1A1DB8EE9A00C8CF56 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20C06C331DB8EE9A00C8CF56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20C06C341DB8EE9A00C8CF56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20C06C361DB8EE9A00C8CF56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VocMaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.csipler.VocMaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		20C06C371DB8EE9A00C8CF56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VocMaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.csipler.VocMaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		20C06C391DB8EE9A00C8CF56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VocMasterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.csipler.VocMasterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VocMaster.app/VocMaster";
+			};
+			name = Debug;
+		};
+		20C06C3A1DB8EE9A00C8CF56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VocMasterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.csipler.VocMasterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VocMaster.app/VocMaster";
+			};
+			name = Release;
+		};
+		20C06C3C1DB8EE9A00C8CF56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = VocMasterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.csipler.VocMasterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VocMaster;
+			};
+			name = Debug;
+		};
+		20C06C3D1DB8EE9A00C8CF56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = VocMasterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.csipler.VocMasterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VocMaster;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20C06C081DB8EE9900C8CF56 /* Build configuration list for PBXProject "VocMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20C06C331DB8EE9A00C8CF56 /* Debug */,
+				20C06C341DB8EE9A00C8CF56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20C06C351DB8EE9A00C8CF56 /* Build configuration list for PBXNativeTarget "VocMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20C06C361DB8EE9A00C8CF56 /* Debug */,
+				20C06C371DB8EE9A00C8CF56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		20C06C381DB8EE9A00C8CF56 /* Build configuration list for PBXNativeTarget "VocMasterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20C06C391DB8EE9A00C8CF56 /* Debug */,
+				20C06C3A1DB8EE9A00C8CF56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		20C06C3B1DB8EE9A00C8CF56 /* Build configuration list for PBXNativeTarget "VocMasterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20C06C3C1DB8EE9A00C8CF56 /* Debug */,
+				20C06C3D1DB8EE9A00C8CF56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20C06C051DB8EE9900C8CF56 /* Project object */;
+}
