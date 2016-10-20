@@ -1,0 +1,863 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CF512C725ED2C0B04D005A6D203DCEC /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB426DB12AF4B97C658D9DDD63556050 /* Operators.swift */; };
+		22EC238EF53E9FF5C49794DB0854D1BA /* Encoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAC5157F435A8B1805294174EEA3636 /* Encoder.swift */; };
+		4410FC385A2CC0E7D78A1EEAC0DCD240 /* ExtensionDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE94AA2EF2A21E6022A91FC75E2EAA8A /* ExtensionDictionary.swift */; };
+		45CFC3DC12BD7AD9E07B5A5B20A27496 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		5A99976269CF70EE832BC99022A238B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		5CB0B1D558BAE6A5CC7AB827A5D57E1D /* Pods-VocMaster-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B9C4DEA27EFDBC6DC2EF91362BA70AE /* Pods-VocMaster-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		778A6877F508FB88B27BA51950028DD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		93A187916A781F07154570F3B048D972 /* Gloss-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF6039E9835CE2F8D5E449DA57CDC5D /* Gloss-dummy.m */; };
+		A7B48BFF6D1845E5D6EA05AB91085034 /* Pods-VocMaster-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B8B0B19656D489139311482273BB20 /* Pods-VocMaster-dummy.m */; };
+		A9053EB87AF6C0F02F39FD72D8ABB0C2 /* Pods-VocMasterUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F5A74793AABD7E4538ED18CA5BF2BA4 /* Pods-VocMasterUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4ED9B272C3D9445508DF681A104CBC8 /* Pods-VocMasterTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9D7CC0070FD966C205258954FB1E82 /* Pods-VocMasterTests-dummy.m */; };
+		CB9C14C1EBA734C19A2C7A94CBA15261 /* Pods-VocMasterUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2ED42F6E77C72D997D24C8B488B0EF /* Pods-VocMasterUITests-dummy.m */; };
+		DB6913A788B5A0BC32FD6ED875B0EC87 /* Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FC2D203C1F2D8C17F1316A36929862 /* Decoder.swift */; };
+		E4B9CC28DF8E651CE5688313CF013436 /* ExtensionArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C42F1C152BB13FA8BC4DD8394EDB70A /* ExtensionArray.swift */; };
+		E81898ADE0CC2D0D0D50C9BE169A5D45 /* Gloss-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FBCF3DEED9BEB52E1CB8BAA0390AE479 /* Gloss-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F446756B91D395E7D37961A350360C5B /* Pods-VocMasterTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 02340AA38BBA470311FA32FC5AB79DFD /* Pods-VocMasterTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5F14B4D173AF2157DF1C3E01DCCE0AC /* Gloss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D053A5A3A98547AA1D4C3A17EE82FD /* Gloss.swift */; };
+		F9C28799A37F60D69FD12D74663EDDA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74492D2CCD5F9DB6D39D6EDCD640CA74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B07B012AE17952EE777271E277F90284;
+			remoteInfo = Gloss;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00A1BA16027C586ADC62006E25DC37E3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02340AA38BBA470311FA32FC5AB79DFD /* Pods-VocMasterTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VocMasterTests-umbrella.h"; sourceTree = "<group>"; };
+		12E83B41E2CA8FD480A75731C39860FA /* Gloss.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Gloss.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C2ED42F6E77C72D997D24C8B488B0EF /* Pods-VocMasterUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VocMasterUITests-dummy.m"; sourceTree = "<group>"; };
+		1FCA9F387AA4E5AFFBF2FEC2F3CA3F7F /* Pods-VocMasterUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-VocMasterUITests.modulemap"; sourceTree = "<group>"; };
+		26E4B3E33E2EB2FB09D8D06D3A848407 /* Pods-VocMasterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VocMasterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2782918754B7EE1331F8F0D122825AC1 /* Pods-VocMasterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VocMasterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		286E3432E332105F777F49FDBF4059BA /* Pods_VocMaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VocMaster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B9C4DEA27EFDBC6DC2EF91362BA70AE /* Pods-VocMaster-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VocMaster-umbrella.h"; sourceTree = "<group>"; };
+		2C42F1C152BB13FA8BC4DD8394EDB70A /* ExtensionArray.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtensionArray.swift; path = Sources/ExtensionArray.swift; sourceTree = "<group>"; };
+		3AFB415709B182A0B420178FBB35F9B7 /* Pods-VocMasterTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VocMasterTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		433268252D6DB7897945390683FFA3DD /* Pods-VocMaster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VocMaster.debug.xcconfig"; sourceTree = "<group>"; };
+		49A13DBB15B6CF495020B24A91DDA539 /* Gloss.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Gloss.xcconfig; sourceTree = "<group>"; };
+		4DBE04214E20FC07BBA2E2EA7F76F404 /* Pods-VocMasterTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VocMasterTests-frameworks.sh"; sourceTree = "<group>"; };
+		4F74C8A9599EA2A51DA561A0F1C7665E /* Gloss.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Gloss.modulemap; sourceTree = "<group>"; };
+		5008441696A88DF56D50B73BF623B46E /* Pods-VocMasterUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VocMasterUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5E46061458C7ECA16432CA4BF27BE12B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6223825BD3BD514925B581C79BD0EB82 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F5A74793AABD7E4538ED18CA5BF2BA4 /* Pods-VocMasterUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VocMasterUITests-umbrella.h"; sourceTree = "<group>"; };
+		81D053A5A3A98547AA1D4C3A17EE82FD /* Gloss.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Gloss.swift; path = Sources/Gloss.swift; sourceTree = "<group>"; };
+		86F277C8A82DCC83FDDD0452B73CB2CD /* Pods_VocMasterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VocMasterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ED70BF48DEEF48D8100FEE11AF5F499 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9ACA88940F01ED2DF02F4390E308A43C /* Pods-VocMaster-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VocMaster-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9BF6039E9835CE2F8D5E449DA57CDC5D /* Gloss-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Gloss-dummy.m"; sourceTree = "<group>"; };
+		9C9D7CC0070FD966C205258954FB1E82 /* Pods-VocMasterTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VocMasterTests-dummy.m"; sourceTree = "<group>"; };
+		A1CCDB40FC56361488C3C918D11B6024 /* Pods-VocMasterUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VocMasterUITests-frameworks.sh"; sourceTree = "<group>"; };
+		A444C17D12BF2726180123107FFDC14D /* Pods_VocMasterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VocMasterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6A756EA8BC537156D7CCD6E6AB77EE0 /* Pods-VocMaster-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VocMaster-resources.sh"; sourceTree = "<group>"; };
+		AB426DB12AF4B97C658D9DDD63556050 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/Operators.swift; sourceTree = "<group>"; };
+		B1FB541542F17A77E931748244946E0F /* Pods-VocMasterUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VocMasterUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B54E288A45F0FBCC6C3FE732D1419622 /* Pods-VocMasterTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VocMasterTests-resources.sh"; sourceTree = "<group>"; };
+		BE94AA2EF2A21E6022A91FC75E2EAA8A /* ExtensionDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtensionDictionary.swift; path = Sources/ExtensionDictionary.swift; sourceTree = "<group>"; };
+		C0A18EEEB4BBCC77D6D880C0F751024A /* Pods-VocMasterTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VocMasterTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C13372C1FB8F38F96BB7157F979469DD /* Pods-VocMasterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VocMasterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C460CBE10DA940E073A7D1ED00F41811 /* Pods-VocMaster-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VocMaster-frameworks.sh"; sourceTree = "<group>"; };
+		CBC6E3FD1FA4D2F080BAE10C3043A642 /* Pods-VocMaster-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VocMaster-acknowledgements.plist"; sourceTree = "<group>"; };
+		CCAC5157F435A8B1805294174EEA3636 /* Encoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Encoder.swift; path = Sources/Encoder.swift; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CFB67E291089F9CECC03B0C3E1E4471A /* Pods-VocMasterUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VocMasterUITests-resources.sh"; sourceTree = "<group>"; };
+		D5FC2D203C1F2D8C17F1316A36929862 /* Decoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Decoder.swift; path = Sources/Decoder.swift; sourceTree = "<group>"; };
+		DA156AF58677550D71D90942B0E9635D /* Pods-VocMasterTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-VocMasterTests.modulemap"; sourceTree = "<group>"; };
+		E1FC68BF9F57003ED19E661A7A1B308B /* Pods-VocMaster.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-VocMaster.modulemap"; sourceTree = "<group>"; };
+		EBBBA9BEC92FA4AC3CBD6E8888FC234A /* Gloss-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Gloss-prefix.pch"; sourceTree = "<group>"; };
+		F665C8831BF868AF85EE6BECC6CF7E1F /* Pods-VocMaster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VocMaster.release.xcconfig"; sourceTree = "<group>"; };
+		F8B8B0B19656D489139311482273BB20 /* Pods-VocMaster-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VocMaster-dummy.m"; sourceTree = "<group>"; };
+		FBC2EED74B56F418FF52813FB2EC6BD8 /* Pods-VocMasterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VocMasterTests.release.xcconfig"; sourceTree = "<group>"; };
+		FBCF3DEED9BEB52E1CB8BAA0390AE479 /* Gloss-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Gloss-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		588AD20D4D2D9AF229F8F7D4EB940665 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9C28799A37F60D69FD12D74663EDDA4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CFD3811055EDCFFEDB029E64EA1E0DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				778A6877F508FB88B27BA51950028DD4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBCE5A061D15A967FCBF11E2C23676D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A99976269CF70EE832BC99022A238B6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE219D04D8D8FC70C53DBFEE333B198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45CFC3DC12BD7AD9E07B5A5B20A27496 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AA86C4C51FBBBC49A4A287E03967B45 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F74C8A9599EA2A51DA561A0F1C7665E /* Gloss.modulemap */,
+				49A13DBB15B6CF495020B24A91DDA539 /* Gloss.xcconfig */,
+				9BF6039E9835CE2F8D5E449DA57CDC5D /* Gloss-dummy.m */,
+				EBBBA9BEC92FA4AC3CBD6E8888FC234A /* Gloss-prefix.pch */,
+				FBCF3DEED9BEB52E1CB8BAA0390AE479 /* Gloss-umbrella.h */,
+				5E46061458C7ECA16432CA4BF27BE12B /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Gloss";
+			sourceTree = "<group>";
+		};
+		1D3013D5B7405F34C8DFE5071F2558DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12E83B41E2CA8FD480A75731C39860FA /* Gloss.framework */,
+				286E3432E332105F777F49FDBF4059BA /* Pods_VocMaster.framework */,
+				A444C17D12BF2726180123107FFDC14D /* Pods_VocMasterTests.framework */,
+				86F277C8A82DCC83FDDD0452B73CB2CD /* Pods_VocMasterUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		41B6C2D622CF500E823C73CEC88DF928 /* Gloss */ = {
+			isa = PBXGroup;
+			children = (
+				D5FC2D203C1F2D8C17F1316A36929862 /* Decoder.swift */,
+				CCAC5157F435A8B1805294174EEA3636 /* Encoder.swift */,
+				2C42F1C152BB13FA8BC4DD8394EDB70A /* ExtensionArray.swift */,
+				BE94AA2EF2A21E6022A91FC75E2EAA8A /* ExtensionDictionary.swift */,
+				81D053A5A3A98547AA1D4C3A17EE82FD /* Gloss.swift */,
+				AB426DB12AF4B97C658D9DDD63556050 /* Operators.swift */,
+				1AA86C4C51FBBBC49A4A287E03967B45 /* Support Files */,
+			);
+			path = Gloss;
+			sourceTree = "<group>";
+		};
+		5530E7229F5ECB87F9255DE077387E2C /* Pods-VocMasterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8ED70BF48DEEF48D8100FEE11AF5F499 /* Info.plist */,
+				1FCA9F387AA4E5AFFBF2FEC2F3CA3F7F /* Pods-VocMasterUITests.modulemap */,
+				5008441696A88DF56D50B73BF623B46E /* Pods-VocMasterUITests-acknowledgements.markdown */,
+				B1FB541542F17A77E931748244946E0F /* Pods-VocMasterUITests-acknowledgements.plist */,
+				1C2ED42F6E77C72D997D24C8B488B0EF /* Pods-VocMasterUITests-dummy.m */,
+				A1CCDB40FC56361488C3C918D11B6024 /* Pods-VocMasterUITests-frameworks.sh */,
+				CFB67E291089F9CECC03B0C3E1E4471A /* Pods-VocMasterUITests-resources.sh */,
+				6F5A74793AABD7E4538ED18CA5BF2BA4 /* Pods-VocMasterUITests-umbrella.h */,
+				2782918754B7EE1331F8F0D122825AC1 /* Pods-VocMasterUITests.debug.xcconfig */,
+				26E4B3E33E2EB2FB09D8D06D3A848407 /* Pods-VocMasterUITests.release.xcconfig */,
+			);
+			name = "Pods-VocMasterUITests";
+			path = "Target Support Files/Pods-VocMasterUITests";
+			sourceTree = "<group>";
+		};
+		660ADA20476A99CCC0A085D99D34E304 /* Pods-VocMaster */ = {
+			isa = PBXGroup;
+			children = (
+				00A1BA16027C586ADC62006E25DC37E3 /* Info.plist */,
+				E1FC68BF9F57003ED19E661A7A1B308B /* Pods-VocMaster.modulemap */,
+				9ACA88940F01ED2DF02F4390E308A43C /* Pods-VocMaster-acknowledgements.markdown */,
+				CBC6E3FD1FA4D2F080BAE10C3043A642 /* Pods-VocMaster-acknowledgements.plist */,
+				F8B8B0B19656D489139311482273BB20 /* Pods-VocMaster-dummy.m */,
+				C460CBE10DA940E073A7D1ED00F41811 /* Pods-VocMaster-frameworks.sh */,
+				A6A756EA8BC537156D7CCD6E6AB77EE0 /* Pods-VocMaster-resources.sh */,
+				2B9C4DEA27EFDBC6DC2EF91362BA70AE /* Pods-VocMaster-umbrella.h */,
+				433268252D6DB7897945390683FFA3DD /* Pods-VocMaster.debug.xcconfig */,
+				F665C8831BF868AF85EE6BECC6CF7E1F /* Pods-VocMaster.release.xcconfig */,
+			);
+			name = "Pods-VocMaster";
+			path = "Target Support Files/Pods-VocMaster";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F01F83621FAEE7D9B9F3B5853DC0FBE6 /* Pods */,
+				1D3013D5B7405F34C8DFE5071F2558DA /* Products */,
+				DF3D770BD66E6F72641F6538527F084A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B667E524DBD83F0AE05ED2A4C11882E8 /* Pods-VocMasterTests */ = {
+			isa = PBXGroup;
+			children = (
+				6223825BD3BD514925B581C79BD0EB82 /* Info.plist */,
+				DA156AF58677550D71D90942B0E9635D /* Pods-VocMasterTests.modulemap */,
+				C0A18EEEB4BBCC77D6D880C0F751024A /* Pods-VocMasterTests-acknowledgements.markdown */,
+				3AFB415709B182A0B420178FBB35F9B7 /* Pods-VocMasterTests-acknowledgements.plist */,
+				9C9D7CC0070FD966C205258954FB1E82 /* Pods-VocMasterTests-dummy.m */,
+				4DBE04214E20FC07BBA2E2EA7F76F404 /* Pods-VocMasterTests-frameworks.sh */,
+				B54E288A45F0FBCC6C3FE732D1419622 /* Pods-VocMasterTests-resources.sh */,
+				02340AA38BBA470311FA32FC5AB79DFD /* Pods-VocMasterTests-umbrella.h */,
+				C13372C1FB8F38F96BB7157F979469DD /* Pods-VocMasterTests.debug.xcconfig */,
+				FBC2EED74B56F418FF52813FB2EC6BD8 /* Pods-VocMasterTests.release.xcconfig */,
+			);
+			name = "Pods-VocMasterTests";
+			path = "Target Support Files/Pods-VocMasterTests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF3D770BD66E6F72641F6538527F084A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				660ADA20476A99CCC0A085D99D34E304 /* Pods-VocMaster */,
+				B667E524DBD83F0AE05ED2A4C11882E8 /* Pods-VocMasterTests */,
+				5530E7229F5ECB87F9255DE077387E2C /* Pods-VocMasterUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F01F83621FAEE7D9B9F3B5853DC0FBE6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41B6C2D622CF500E823C73CEC88DF928 /* Gloss */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6D19F0531EE609B34E6DA8F87E7F3102 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E81898ADE0CC2D0D0D50C9BE169A5D45 /* Gloss-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8CA57F372FC730259437FCF38526F83 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9053EB87AF6C0F02F39FD72D8ABB0C2 /* Pods-VocMasterUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECDCC6CF25F797EC8A5B02AC74407105 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CB0B1D558BAE6A5CC7AB827A5D57E1D /* Pods-VocMaster-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5B931A901DB366B9E77C1294771452 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F446756B91D395E7D37961A350360C5B /* Pods-VocMasterTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0132F23BBAF338DE02C464B55E56F847 /* Pods-VocMasterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C21AA246B02782FA4B2A30C635D9EC61 /* Build configuration list for PBXNativeTarget "Pods-VocMasterTests" */;
+			buildPhases = (
+				319D88BE2B85B4232B63C640977824C6 /* Sources */,
+				EFE219D04D8D8FC70C53DBFEE333B198 /* Frameworks */,
+				FB5B931A901DB366B9E77C1294771452 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-VocMasterTests";
+			productName = "Pods-VocMasterTests";
+			productReference = A444C17D12BF2726180123107FFDC14D /* Pods_VocMasterTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4EE28FCBB1106AE5FF7DE5CDE6C125F1 /* Pods-VocMasterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAC4B9FC05B61FDCCDBE77FD85BB82FB /* Build configuration list for PBXNativeTarget "Pods-VocMasterUITests" */;
+			buildPhases = (
+				1CB1C00B708F701A824E9783E45FC1CD /* Sources */,
+				EBCE5A061D15A967FCBF11E2C23676D9 /* Frameworks */,
+				A8CA57F372FC730259437FCF38526F83 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-VocMasterUITests";
+			productName = "Pods-VocMasterUITests";
+			productReference = 86F277C8A82DCC83FDDD0452B73CB2CD /* Pods_VocMasterUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7E24F0CA8B8B290E402B92C49971CE0B /* Pods-VocMaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD7962AA1A8C066F71B24B84BBC728F5 /* Build configuration list for PBXNativeTarget "Pods-VocMaster" */;
+			buildPhases = (
+				AB112671A63E1B557C4DB64551E5CC95 /* Sources */,
+				588AD20D4D2D9AF229F8F7D4EB940665 /* Frameworks */,
+				ECDCC6CF25F797EC8A5B02AC74407105 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				172B5EA5608D7BFC214C1D233CA0A690 /* PBXTargetDependency */,
+			);
+			name = "Pods-VocMaster";
+			productName = "Pods-VocMaster";
+			productReference = 286E3432E332105F777F49FDBF4059BA /* Pods_VocMaster.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B07B012AE17952EE777271E277F90284 /* Gloss */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6F3708982EAF9E17BEA8F2946B05C4F /* Build configuration list for PBXNativeTarget "Gloss" */;
+			buildPhases = (
+				35A096F26E97C706CBEA29CF965447E7 /* Sources */,
+				5CFD3811055EDCFFEDB029E64EA1E0DD /* Frameworks */,
+				6D19F0531EE609B34E6DA8F87E7F3102 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gloss;
+			productName = Gloss;
+			productReference = 12E83B41E2CA8FD480A75731C39860FA /* Gloss.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1D3013D5B7405F34C8DFE5071F2558DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B07B012AE17952EE777271E277F90284 /* Gloss */,
+				7E24F0CA8B8B290E402B92C49971CE0B /* Pods-VocMaster */,
+				0132F23BBAF338DE02C464B55E56F847 /* Pods-VocMasterTests */,
+				4EE28FCBB1106AE5FF7DE5CDE6C125F1 /* Pods-VocMasterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CB1C00B708F701A824E9783E45FC1CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB9C14C1EBA734C19A2C7A94CBA15261 /* Pods-VocMasterUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		319D88BE2B85B4232B63C640977824C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4ED9B272C3D9445508DF681A104CBC8 /* Pods-VocMasterTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35A096F26E97C706CBEA29CF965447E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB6913A788B5A0BC32FD6ED875B0EC87 /* Decoder.swift in Sources */,
+				22EC238EF53E9FF5C49794DB0854D1BA /* Encoder.swift in Sources */,
+				E4B9CC28DF8E651CE5688313CF013436 /* ExtensionArray.swift in Sources */,
+				4410FC385A2CC0E7D78A1EEAC0DCD240 /* ExtensionDictionary.swift in Sources */,
+				93A187916A781F07154570F3B048D972 /* Gloss-dummy.m in Sources */,
+				F5F14B4D173AF2157DF1C3E01DCCE0AC /* Gloss.swift in Sources */,
+				0CF512C725ED2C0B04D005A6D203DCEC /* Operators.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB112671A63E1B557C4DB64551E5CC95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7B48BFF6D1845E5D6EA05AB91085034 /* Pods-VocMaster-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		172B5EA5608D7BFC214C1D233CA0A690 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Gloss;
+			target = B07B012AE17952EE777271E277F90284 /* Gloss */;
+			targetProxy = 74492D2CCD5F9DB6D39D6EDCD640CA74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05EFB8CA7411D1EC5B6FA4E625BA37D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 433268252D6DB7897945390683FFA3DD /* Pods-VocMaster.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-VocMaster/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VocMaster/Pods-VocMaster.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VocMaster;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2B2372ECCAF20DAACA892A195C1357F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C13372C1FB8F38F96BB7157F979469DD /* Pods-VocMasterTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-VocMasterTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VocMasterTests/Pods-VocMasterTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VocMasterTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7212DC327366505B08BC4BA8A1884FF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F665C8831BF868AF85EE6BECC6CF7E1F /* Pods-VocMaster.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-VocMaster/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VocMaster/Pods-VocMaster.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VocMaster;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		74AD161E7E5E0E5AA9228F320E6377AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49A13DBB15B6CF495020B24A91DDA539 /* Gloss.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Gloss/Gloss-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Gloss/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Gloss/Gloss.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Gloss;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		76913A93EC1288CB9315321EEB9EB6E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49A13DBB15B6CF495020B24A91DDA539 /* Gloss.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Gloss/Gloss-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Gloss/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Gloss/Gloss.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Gloss;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A8F52385E654E53E27DE15C7CD9BFA9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2782918754B7EE1331F8F0D122825AC1 /* Pods-VocMasterUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-VocMasterUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VocMasterUITests/Pods-VocMasterUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VocMasterUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DB2BB12ED7A81BBF260AF8345E35C6AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26E4B3E33E2EB2FB09D8D06D3A848407 /* Pods-VocMasterUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-VocMasterUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VocMasterUITests/Pods-VocMasterUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VocMasterUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F86D0FF793BB835D72F174223FE15D94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBC2EED74B56F418FF52813FB2EC6BD8 /* Pods-VocMasterTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-VocMasterTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VocMasterTests/Pods-VocMasterTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VocMasterTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12914D756594D15C6F2CA12FE5F89F1B /* Debug */,
+				E72E7977875C2D251FC62736BBDDC389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C21AA246B02782FA4B2A30C635D9EC61 /* Build configuration list for PBXNativeTarget "Pods-VocMasterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B2372ECCAF20DAACA892A195C1357F4 /* Debug */,
+				F86D0FF793BB835D72F174223FE15D94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAC4B9FC05B61FDCCDBE77FD85BB82FB /* Build configuration list for PBXNativeTarget "Pods-VocMasterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8F52385E654E53E27DE15C7CD9BFA9C /* Debug */,
+				DB2BB12ED7A81BBF260AF8345E35C6AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6F3708982EAF9E17BEA8F2946B05C4F /* Build configuration list for PBXNativeTarget "Gloss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74AD161E7E5E0E5AA9228F320E6377AA /* Debug */,
+				76913A93EC1288CB9315321EEB9EB6E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD7962AA1A8C066F71B24B84BBC728F5 /* Build configuration list for PBXNativeTarget "Pods-VocMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05EFB8CA7411D1EC5B6FA4E625BA37D4 /* Debug */,
+				7212DC327366505B08BC4BA8A1884FF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

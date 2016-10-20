@@ -1,0 +1,6 @@
+framework module Pods_VocMasterUITests {
+  umbrella header "Pods-VocMasterUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

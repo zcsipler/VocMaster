@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		20C06C111DB8EE9A00C8CF56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C06C101DB8EE9A00C8CF56 /* AppDelegate.swift */; };
-		20C06C131DB8EE9A00C8CF56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C06C121DB8EE9A00C8CF56 /* ViewController.swift */; };
-		20C06C161DB8EE9A00C8CF56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20C06C141DB8EE9A00C8CF56 /* Main.storyboard */; };
-		20C06C181DB8EE9A00C8CF56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20C06C171DB8EE9A00C8CF56 /* Assets.xcassets */; };
-		20C06C1B1DB8EE9A00C8CF56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20C06C191DB8EE9A00C8CF56 /* LaunchScreen.storyboard */; };
+		2003DCDB1DB8FBAF00835FA4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2003DCDA1DB8FBAF00835FA4 /* Default-568h@2x.png */; };
+		2003DCEB1DB8FD6400835FA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2003DCE91DB8FD6400835FA4 /* AppDelegate.swift */; };
+		2003DCEC1DB8FD6400835FA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2003DCEA1DB8FD6400835FA4 /* Assets.xcassets */; };
+		2003DCF21DB8FEE600835FA4 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2003DCF01DB8FEE600835FA4 /* SplashViewController.swift */; };
+		2003DCF31DB8FEE600835FA4 /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2003DCF11DB8FEE600835FA4 /* SplashViewController.xib */; };
 		20C06C261DB8EE9A00C8CF56 /* VocMasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C06C251DB8EE9A00C8CF56 /* VocMasterTests.swift */; };
 		20C06C311DB8EE9A00C8CF56 /* VocMasterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C06C301DB8EE9A00C8CF56 /* VocMasterUITests.swift */; };
+		69F27E9B1DC094A18CA777B5 /* Pods_VocMasterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75713B3612429D7B01036C5C /* Pods_VocMasterUITests.framework */; };
+		C8FC07BE6A81516F42A3957A /* Pods_VocMasterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA02BDB5434EC6DAEEA3CF1 /* Pods_VocMasterTests.framework */; };
+		D66A027600935137CE261092 /* Pods_VocMaster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C3D9A57BD4DB6E872074838 /* Pods_VocMaster.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +37,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2003DCDA1DB8FBAF00835FA4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		2003DCE71DB8FCDD00835FA4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2003DCE91DB8FD6400835FA4 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2003DCEA1DB8FD6400835FA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2003DCF01DB8FEE600835FA4 /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SplashViewController.swift; path = Modules/Splash/SplashViewController.swift; sourceTree = "<group>"; };
+		2003DCF11DB8FEE600835FA4 /* SplashViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SplashViewController.xib; path = Modules/Splash/SplashViewController.xib; sourceTree = "<group>"; };
 		20C06C0D1DB8EE9A00C8CF56 /* VocMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VocMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		20C06C101DB8EE9A00C8CF56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		20C06C121DB8EE9A00C8CF56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		20C06C151DB8EE9A00C8CF56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		20C06C171DB8EE9A00C8CF56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		20C06C1A1DB8EE9A00C8CF56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		20C06C1C1DB8EE9A00C8CF56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20C06C211DB8EE9A00C8CF56 /* VocMasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VocMasterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20C06C251DB8EE9A00C8CF56 /* VocMasterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocMasterTests.swift; sourceTree = "<group>"; };
 		20C06C271DB8EE9A00C8CF56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20C06C2C1DB8EE9A00C8CF56 /* VocMasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VocMasterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20C06C301DB8EE9A00C8CF56 /* VocMasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocMasterUITests.swift; sourceTree = "<group>"; };
 		20C06C321DB8EE9A00C8CF56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26FE5E9633070CF18FBD99E5 /* Pods-VocMaster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VocMaster.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VocMaster/Pods-VocMaster.debug.xcconfig"; sourceTree = "<group>"; };
+		4C3D9A57BD4DB6E872074838 /* Pods_VocMaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VocMaster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75713B3612429D7B01036C5C /* Pods_VocMasterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VocMasterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FBF7DEAAC3DF825C84FF09E /* Pods-VocMasterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VocMasterUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VocMasterUITests/Pods-VocMasterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A267BB4F398A0E6E0FBD9EA8 /* Pods-VocMaster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VocMaster.release.xcconfig"; path = "Pods/Target Support Files/Pods-VocMaster/Pods-VocMaster.release.xcconfig"; sourceTree = "<group>"; };
+		AEA02BDB5434EC6DAEEA3CF1 /* Pods_VocMasterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VocMasterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BED5CE868519B64726517119 /* Pods-VocMasterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VocMasterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VocMasterTests/Pods-VocMasterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D346EB76CCAAB34CAB05A568 /* Pods-VocMasterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VocMasterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VocMasterTests/Pods-VocMasterTests.release.xcconfig"; sourceTree = "<group>"; };
+		FDAD32E30279D12BBDAFC5C9 /* Pods-VocMasterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VocMasterUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VocMasterUITests/Pods-VocMasterUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D66A027600935137CE261092 /* Pods_VocMaster.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8FC07BE6A81516F42A3957A /* Pods_VocMasterTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,62 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69F27E9B1DC094A18CA777B5 /* Pods_VocMasterUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2003DCDC1DB8FC1100835FA4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2003DCDA1DB8FBAF00835FA4 /* Default-568h@2x.png */,
+				2003DCE91DB8FD6400835FA4 /* AppDelegate.swift */,
+				2003DCEA1DB8FD6400835FA4 /* Assets.xcassets */,
+				2003DCE71DB8FCDD00835FA4 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2003DCDD1DB8FC1800835FA4 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				2003DCED1DB8FE9200835FA4 /* Splash */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		2003DCDE1DB8FC1F00835FA4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		2003DCDF1DB8FC2400835FA4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		2003DCE01DB8FC2C00835FA4 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		2003DCED1DB8FE9200835FA4 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				2003DCF01DB8FEE600835FA4 /* SplashViewController.swift */,
+				2003DCF11DB8FEE600835FA4 /* SplashViewController.xib */,
+			);
+			name = Splash;
+			sourceTree = "<group>";
+		};
 		20C06C041DB8EE9900C8CF56 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +145,8 @@
 				20C06C241DB8EE9A00C8CF56 /* VocMasterTests */,
 				20C06C2F1DB8EE9A00C8CF56 /* VocMasterUITests */,
 				20C06C0E1DB8EE9A00C8CF56 /* Products */,
+				EE3AC2978CB86D4F7204D1D6 /* Pods */,
+				634F37E2A68E704CF276FAAE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +163,11 @@
 		20C06C0F1DB8EE9A00C8CF56 /* VocMaster */ = {
 			isa = PBXGroup;
 			children = (
-				20C06C101DB8EE9A00C8CF56 /* AppDelegate.swift */,
-				20C06C121DB8EE9A00C8CF56 /* ViewController.swift */,
-				20C06C141DB8EE9A00C8CF56 /* Main.storyboard */,
-				20C06C171DB8EE9A00C8CF56 /* Assets.xcassets */,
-				20C06C191DB8EE9A00C8CF56 /* LaunchScreen.storyboard */,
-				20C06C1C1DB8EE9A00C8CF56 /* Info.plist */,
+				2003DCE01DB8FC2C00835FA4 /* Managers */,
+				2003DCDF1DB8FC2400835FA4 /* Services */,
+				2003DCDE1DB8FC1F00835FA4 /* Models */,
+				2003DCDD1DB8FC1800835FA4 /* Modules */,
+				2003DCDC1DB8FC1100835FA4 /* Resources */,
 			);
 			path = VocMaster;
 			sourceTree = "<group>";
@@ -125,6 +190,29 @@
 			path = VocMasterUITests;
 			sourceTree = "<group>";
 		};
+		634F37E2A68E704CF276FAAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C3D9A57BD4DB6E872074838 /* Pods_VocMaster.framework */,
+				AEA02BDB5434EC6DAEEA3CF1 /* Pods_VocMasterTests.framework */,
+				75713B3612429D7B01036C5C /* Pods_VocMasterUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE3AC2978CB86D4F7204D1D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26FE5E9633070CF18FBD99E5 /* Pods-VocMaster.debug.xcconfig */,
+				A267BB4F398A0E6E0FBD9EA8 /* Pods-VocMaster.release.xcconfig */,
+				BED5CE868519B64726517119 /* Pods-VocMasterTests.debug.xcconfig */,
+				D346EB76CCAAB34CAB05A568 /* Pods-VocMasterTests.release.xcconfig */,
+				FDAD32E30279D12BBDAFC5C9 /* Pods-VocMasterUITests.debug.xcconfig */,
+				9FBF7DEAAC3DF825C84FF09E /* Pods-VocMasterUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20C06C351DB8EE9A00C8CF56 /* Build configuration list for PBXNativeTarget "VocMaster" */;
 			buildPhases = (
+				A646F65B717F9717AD678875 /* [CP] Check Pods Manifest.lock */,
 				20C06C091DB8EE9900C8CF56 /* Sources */,
 				20C06C0A1DB8EE9900C8CF56 /* Frameworks */,
 				20C06C0B1DB8EE9900C8CF56 /* Resources */,
+				68FEE624D378802CC8EB3E8D /* [CP] Embed Pods Frameworks */,
+				CD4AA9E4211C68851A991CA7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +240,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20C06C381DB8EE9A00C8CF56 /* Build configuration list for PBXNativeTarget "VocMasterTests" */;
 			buildPhases = (
+				99E1B899AF54DD0F75616956 /* [CP] Check Pods Manifest.lock */,
 				20C06C1D1DB8EE9A00C8CF56 /* Sources */,
 				20C06C1E1DB8EE9A00C8CF56 /* Frameworks */,
 				20C06C1F1DB8EE9A00C8CF56 /* Resources */,
+				8097CC239D198E76E82DF35F /* [CP] Embed Pods Frameworks */,
+				3C7E41F8A1F245B622DCE6DB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +261,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20C06C3B1DB8EE9A00C8CF56 /* Build configuration list for PBXNativeTarget "VocMasterUITests" */;
 			buildPhases = (
+				D27D816F2972216CBD418CF6 /* [CP] Check Pods Manifest.lock */,
 				20C06C281DB8EE9A00C8CF56 /* Sources */,
 				20C06C291DB8EE9A00C8CF56 /* Frameworks */,
 				20C06C2A1DB8EE9A00C8CF56 /* Resources */,
+				97BB0A2A79494E0FF1AC13AC /* [CP] Embed Pods Frameworks */,
+				3CBB00C459E8ECAF8B0FB19F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,9 +329,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20C06C1B1DB8EE9A00C8CF56 /* LaunchScreen.storyboard in Resources */,
-				20C06C181DB8EE9A00C8CF56 /* Assets.xcassets in Resources */,
-				20C06C161DB8EE9A00C8CF56 /* Main.storyboard in Resources */,
+				2003DCEC1DB8FD6400835FA4 /* Assets.xcassets in Resources */,
+				2003DCF31DB8FEE600835FA4 /* SplashViewController.xib in Resources */,
+				2003DCDB1DB8FBAF00835FA4 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +351,151 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3C7E41F8A1F245B622DCE6DB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VocMasterTests/Pods-VocMasterTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CBB00C459E8ECAF8B0FB19F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VocMasterUITests/Pods-VocMasterUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68FEE624D378802CC8EB3E8D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VocMaster/Pods-VocMaster-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8097CC239D198E76E82DF35F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VocMasterTests/Pods-VocMasterTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97BB0A2A79494E0FF1AC13AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VocMasterUITests/Pods-VocMasterUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99E1B899AF54DD0F75616956 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A646F65B717F9717AD678875 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CD4AA9E4211C68851A991CA7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VocMaster/Pods-VocMaster-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D27D816F2972216CBD418CF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		20C06C091DB8EE9900C8CF56 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20C06C131DB8EE9A00C8CF56 /* ViewController.swift in Sources */,
-				20C06C111DB8EE9A00C8CF56 /* AppDelegate.swift in Sources */,
+				2003DCEB1DB8FD6400835FA4 /* AppDelegate.swift in Sources */,
+				2003DCF21DB8FEE600835FA4 /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,25 +529,6 @@
 			targetProxy = 20C06C2D1DB8EE9A00C8CF56 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		20C06C141DB8EE9A00C8CF56 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				20C06C151DB8EE9A00C8CF56 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		20C06C191DB8EE9A00C8CF56 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				20C06C1A1DB8EE9A00C8CF56 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		20C06C331DB8EE9A00C8CF56 /* Debug */ = {
@@ -410,6 +626,7 @@
 		};
 		20C06C361DB8EE9A00C8CF56 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26FE5E9633070CF18FBD99E5 /* Pods-VocMaster.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = VocMaster/Info.plist;
@@ -422,6 +639,7 @@
 		};
 		20C06C371DB8EE9A00C8CF56 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A267BB4F398A0E6E0FBD9EA8 /* Pods-VocMaster.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = VocMaster/Info.plist;
@@ -434,8 +652,9 @@
 		};
 		20C06C391DB8EE9A00C8CF56 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BED5CE868519B64726517119 /* Pods-VocMasterTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = VocMasterTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -448,8 +667,9 @@
 		};
 		20C06C3A1DB8EE9A00C8CF56 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D346EB76CCAAB34CAB05A568 /* Pods-VocMasterTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = VocMasterTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -462,8 +682,9 @@
 		};
 		20C06C3C1DB8EE9A00C8CF56 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDAD32E30279D12BBDAFC5C9 /* Pods-VocMasterUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				INFOPLIST_FILE = VocMasterUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.csipler.VocMasterUITests;
@@ -475,8 +696,9 @@
 		};
 		20C06C3D1DB8EE9A00C8CF56 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FBF7DEAAC3DF825C84FF09E /* Pods-VocMasterUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				INFOPLIST_FILE = VocMasterUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.csipler.VocMasterUITests;
@@ -505,6 +727,7 @@
 				20C06C371DB8EE9A00C8CF56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20C06C381DB8EE9A00C8CF56 /* Build configuration list for PBXNativeTarget "VocMasterTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +736,7 @@
 				20C06C3A1DB8EE9A00C8CF56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20C06C3B1DB8EE9A00C8CF56 /* Build configuration list for PBXNativeTarget "VocMasterUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +745,7 @@
 				20C06C3D1DB8EE9A00C8CF56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
