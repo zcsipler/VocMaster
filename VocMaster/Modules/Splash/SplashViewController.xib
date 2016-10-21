@@ -8,6 +8,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SplashViewController" customModule="VocMaster" customModuleProvider="target">
             <connections>
+                <outlet property="lblLoadingText" destination="0Jg-G7-KxH" id="GwC-XF-beB"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -15,7 +16,22 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Jg-G7-KxH" userLabel="lblLoadingText">
+                    <constraints>
+                        <constraint firstAttribute="height" priority="500" constant="21" id="AwU-yL-N2R"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="0Jg-G7-KxH" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="31f-DN-xJT"/>
+                <constraint firstAttribute="trailing" secondItem="0Jg-G7-KxH" secondAttribute="trailing" constant="20" id="6Rr-Ug-MGH"/>
+                <constraint firstItem="0Jg-G7-KxH" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="vUa-EI-ylu"/>
+            </constraints>
         </view>
     </objects>
 </document>

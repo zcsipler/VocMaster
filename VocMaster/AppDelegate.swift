@@ -13,14 +13,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool
     {
         self.window = UIWindow(frame: UIScreen.main.bounds)
         
-        let mainViewController = SplashViewController(nibName: "SplashViewController", bundle: nil)
+        let splashViewController = SplashViewController(nibName: "SplashViewController", bundle: nil)
+        let splashPresenter = SplashPresenter(view: splashViewController);
+        splashViewController.presenter = splashPresenter;
         
-        self.window?.rootViewController = mainViewController
+        self.window?.rootViewController = splashViewController
         self.window?.makeKeyAndVisible()
         
         return true

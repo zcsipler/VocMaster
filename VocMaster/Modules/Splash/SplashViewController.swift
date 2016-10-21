@@ -8,28 +8,30 @@
 
 import UIKit
 
-class SplashViewController: UIViewController {
-
-    override func viewDidLoad() {
+class SplashViewController: VMBaseViewController, SplashViewProtocol
+{
+    @IBOutlet weak var lblLoadingText: UILabel!
+    
+    var presenter: SplashPresenterProtocol!;
+    
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        self.presenter.viewDidLoad()
     }
 
-    override func didReceiveMemoryWarning() {
+    override func didReceiveMemoryWarning()
+    {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func setLoadingText(loadingText: String)
+    {
+        lblLoadingText.text = loadingText;
+        
+        sleep(10);
+        
+        self.presenter.loadingAnimationFinished()
     }
-    */
-
 }

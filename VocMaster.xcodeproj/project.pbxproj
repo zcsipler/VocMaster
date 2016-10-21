@@ -12,6 +12,13 @@
 		2003DCEC1DB8FD6400835FA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2003DCEA1DB8FD6400835FA4 /* Assets.xcassets */; };
 		2003DCF21DB8FEE600835FA4 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2003DCF01DB8FEE600835FA4 /* SplashViewController.swift */; };
 		2003DCF31DB8FEE600835FA4 /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2003DCF11DB8FEE600835FA4 /* SplashViewController.xib */; };
+		2003DCFA1DB9149C00835FA4 /* SplashViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2003DCF91DB9149C00835FA4 /* SplashViewProtocol.swift */; };
+		2003DCFC1DB9155400835FA4 /* SplashPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2003DCFB1DB9155400835FA4 /* SplashPresenter.swift */; };
+		2003DCFE1DB9157700835FA4 /* SplashPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2003DCFD1DB9157700835FA4 /* SplashPresenterProtocol.swift */; };
+		2003DD021DB91A1400835FA4 /* VMBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2003DD011DB91A1400835FA4 /* VMBaseViewController.swift */; };
+		2003DD041DB91A3C00835FA4 /* VMBaseViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2003DD031DB91A3C00835FA4 /* VMBaseViewProtocol.swift */; };
+		2003DD061DB91A7F00835FA4 /* VMBasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2003DD051DB91A7F00835FA4 /* VMBasePresenter.swift */; };
+		2003DD081DB91AC600835FA4 /* VMBasePresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2003DD071DB91AC600835FA4 /* VMBasePresenterProtocol.swift */; };
 		20C06C261DB8EE9A00C8CF56 /* VocMasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C06C251DB8EE9A00C8CF56 /* VocMasterTests.swift */; };
 		20C06C311DB8EE9A00C8CF56 /* VocMasterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C06C301DB8EE9A00C8CF56 /* VocMasterUITests.swift */; };
 		69F27E9B1DC094A18CA777B5 /* Pods_VocMasterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75713B3612429D7B01036C5C /* Pods_VocMasterUITests.framework */; };
@@ -43,6 +50,13 @@
 		2003DCEA1DB8FD6400835FA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2003DCF01DB8FEE600835FA4 /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SplashViewController.swift; path = Modules/Splash/SplashViewController.swift; sourceTree = "<group>"; };
 		2003DCF11DB8FEE600835FA4 /* SplashViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SplashViewController.xib; path = Modules/Splash/SplashViewController.xib; sourceTree = "<group>"; };
+		2003DCF91DB9149C00835FA4 /* SplashViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SplashViewProtocol.swift; path = Modules/Splash/SplashViewProtocol.swift; sourceTree = "<group>"; };
+		2003DCFB1DB9155400835FA4 /* SplashPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SplashPresenter.swift; path = Modules/Splash/SplashPresenter.swift; sourceTree = "<group>"; };
+		2003DCFD1DB9157700835FA4 /* SplashPresenterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SplashPresenterProtocol.swift; path = Modules/Splash/SplashPresenterProtocol.swift; sourceTree = "<group>"; };
+		2003DD011DB91A1400835FA4 /* VMBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VMBaseViewController.swift; path = Modules/Base/VMBaseViewController.swift; sourceTree = "<group>"; };
+		2003DD031DB91A3C00835FA4 /* VMBaseViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VMBaseViewProtocol.swift; path = Modules/Base/VMBaseViewProtocol.swift; sourceTree = "<group>"; };
+		2003DD051DB91A7F00835FA4 /* VMBasePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VMBasePresenter.swift; path = Modules/Base/VMBasePresenter.swift; sourceTree = "<group>"; };
+		2003DD071DB91AC600835FA4 /* VMBasePresenterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VMBasePresenterProtocol.swift; path = Modules/Base/VMBasePresenterProtocol.swift; sourceTree = "<group>"; };
 		20C06C0D1DB8EE9A00C8CF56 /* VocMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VocMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20C06C211DB8EE9A00C8CF56 /* VocMasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VocMasterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20C06C251DB8EE9A00C8CF56 /* VocMasterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocMasterTests.swift; sourceTree = "<group>"; };
@@ -103,6 +117,7 @@
 		2003DCDD1DB8FC1800835FA4 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				2003DCF61DB90A0D00835FA4 /* Base */,
 				2003DCED1DB8FE9200835FA4 /* Splash */,
 			);
 			name = Modules;
@@ -132,10 +147,56 @@
 		2003DCED1DB8FE9200835FA4 /* Splash */ = {
 			isa = PBXGroup;
 			children = (
-				2003DCF01DB8FEE600835FA4 /* SplashViewController.swift */,
-				2003DCF11DB8FEE600835FA4 /* SplashViewController.xib */,
+				2003DCF51DB9099F00835FA4 /* Presenter */,
+				2003DCF41DB9099A00835FA4 /* View */,
 			);
 			name = Splash;
+			sourceTree = "<group>";
+		};
+		2003DCF41DB9099A00835FA4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2003DCF01DB8FEE600835FA4 /* SplashViewController.swift */,
+				2003DCF11DB8FEE600835FA4 /* SplashViewController.xib */,
+				2003DCF91DB9149C00835FA4 /* SplashViewProtocol.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2003DCF51DB9099F00835FA4 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				2003DCFB1DB9155400835FA4 /* SplashPresenter.swift */,
+				2003DCFD1DB9157700835FA4 /* SplashPresenterProtocol.swift */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		2003DCF61DB90A0D00835FA4 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2003DCF71DB90A1300835FA4 /* Presenter */,
+				2003DCF81DB90A1900835FA4 /* View */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		2003DCF71DB90A1300835FA4 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				2003DD051DB91A7F00835FA4 /* VMBasePresenter.swift */,
+				2003DD071DB91AC600835FA4 /* VMBasePresenterProtocol.swift */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		2003DCF81DB90A1900835FA4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2003DD011DB91A1400835FA4 /* VMBaseViewController.swift */,
+				2003DD031DB91A3C00835FA4 /* VMBaseViewProtocol.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 		20C06C041DB8EE9900C8CF56 = {
@@ -495,7 +556,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2003DCEB1DB8FD6400835FA4 /* AppDelegate.swift in Sources */,
+				2003DCFA1DB9149C00835FA4 /* SplashViewProtocol.swift in Sources */,
+				2003DD021DB91A1400835FA4 /* VMBaseViewController.swift in Sources */,
+				2003DD041DB91A3C00835FA4 /* VMBaseViewProtocol.swift in Sources */,
 				2003DCF21DB8FEE600835FA4 /* SplashViewController.swift in Sources */,
+				2003DCFE1DB9157700835FA4 /* SplashPresenterProtocol.swift in Sources */,
+				2003DD061DB91A7F00835FA4 /* VMBasePresenter.swift in Sources */,
+				2003DCFC1DB9155400835FA4 /* SplashPresenter.swift in Sources */,
+				2003DD081DB91AC600835FA4 /* VMBasePresenterProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
