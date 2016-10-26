@@ -8,6 +8,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SplashViewController" customModule="VocMaster" customModuleProvider="target">
             <connections>
+                <outlet property="aicLoading" destination="Wid-Lv-EcW" id="Kk9-Iu-iak"/>
                 <outlet property="lblLoadingText" destination="0Jg-G7-KxH" id="GwC-XF-beB"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -17,11 +18,12 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="Wid-Lv-EcW" userLabel="aicLoading"/>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Jg-G7-KxH" userLabel="lblLoadingText">
                     <constraints>
                         <constraint firstAttribute="height" priority="500" constant="21" id="AwU-yL-N2R"/>
                     </constraints>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
@@ -30,7 +32,9 @@
             <constraints>
                 <constraint firstItem="0Jg-G7-KxH" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="31f-DN-xJT"/>
                 <constraint firstAttribute="trailing" secondItem="0Jg-G7-KxH" secondAttribute="trailing" constant="20" id="6Rr-Ug-MGH"/>
-                <constraint firstItem="0Jg-G7-KxH" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="vUa-EI-ylu"/>
+                <constraint firstItem="0Jg-G7-KxH" firstAttribute="top" secondItem="Wid-Lv-EcW" secondAttribute="bottom" constant="10" id="8n1-zf-qbz"/>
+                <constraint firstItem="Wid-Lv-EcW" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ki1-LV-53M"/>
+                <constraint firstItem="Wid-Lv-EcW" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="x6a-AW-2Wh"/>
             </constraints>
         </view>
     </objects>

@@ -8,5 +8,6 @@
 
 protocol SplashViewProtocol: VMBaseViewProtocol
 {
-    func setLoadingText(loadingText: String);
+    func startAnimation(loadingText: String);
+    func stopAnimation();
 }

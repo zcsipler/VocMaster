@@ -21,6 +21,13 @@
 		2003DD081DB91AC600835FA4 /* VMBasePresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2003DD071DB91AC600835FA4 /* VMBasePresenterProtocol.swift */; };
 		20C06C261DB8EE9A00C8CF56 /* VocMasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C06C251DB8EE9A00C8CF56 /* VocMasterTests.swift */; };
 		20C06C311DB8EE9A00C8CF56 /* VocMasterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C06C301DB8EE9A00C8CF56 /* VocMasterUITests.swift */; };
+		20EE28011DBE51B8007288CD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EE27FF1DBE51B8007288CD /* MainViewController.swift */; };
+		20EE28021DBE51B8007288CD /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20EE28001DBE51B8007288CD /* MainViewController.xib */; };
+		20EE28041DBE523F007288CD /* MainViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EE28031DBE523F007288CD /* MainViewProtocol.swift */; };
+		20EE28061DBE527A007288CD /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EE28051DBE527A007288CD /* MainPresenter.swift */; };
+		20EE28081DBE5298007288CD /* MainPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EE28071DBE5298007288CD /* MainPresenterProtocol.swift */; };
+		20EE28921DC0E5F6007288CD /* VMModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EE28911DC0E5F6007288CD /* VMModuleBuilder.swift */; };
+		20EE28941DC0E8D3007288CD /* VMNavigationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EE28931DC0E8D3007288CD /* VMNavigationManager.swift */; };
 		69F27E9B1DC094A18CA777B5 /* Pods_VocMasterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75713B3612429D7B01036C5C /* Pods_VocMasterUITests.framework */; };
 		C8FC07BE6A81516F42A3957A /* Pods_VocMasterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA02BDB5434EC6DAEEA3CF1 /* Pods_VocMasterTests.framework */; };
 		D66A027600935137CE261092 /* Pods_VocMaster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C3D9A57BD4DB6E872074838 /* Pods_VocMaster.framework */; };
@@ -64,6 +71,13 @@
 		20C06C2C1DB8EE9A00C8CF56 /* VocMasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VocMasterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20C06C301DB8EE9A00C8CF56 /* VocMasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocMasterUITests.swift; sourceTree = "<group>"; };
 		20C06C321DB8EE9A00C8CF56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20EE27FF1DBE51B8007288CD /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = Modules/Main/MainViewController.swift; sourceTree = "<group>"; };
+		20EE28001DBE51B8007288CD /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainViewController.xib; path = Modules/Main/MainViewController.xib; sourceTree = "<group>"; };
+		20EE28031DBE523F007288CD /* MainViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewProtocol.swift; path = Modules/Main/MainViewProtocol.swift; sourceTree = "<group>"; };
+		20EE28051DBE527A007288CD /* MainPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainPresenter.swift; path = Modules/Main/MainPresenter.swift; sourceTree = "<group>"; };
+		20EE28071DBE5298007288CD /* MainPresenterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainPresenterProtocol.swift; path = Modules/Main/MainPresenterProtocol.swift; sourceTree = "<group>"; };
+		20EE28911DC0E5F6007288CD /* VMModuleBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VMModuleBuilder.swift; path = ModuleBuilder/VMModuleBuilder.swift; sourceTree = "<group>"; };
+		20EE28931DC0E8D3007288CD /* VMNavigationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VMNavigationManager.swift; path = Managers/VMNavigationManager.swift; sourceTree = "<group>"; };
 		26FE5E9633070CF18FBD99E5 /* Pods-VocMaster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VocMaster.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VocMaster/Pods-VocMaster.debug.xcconfig"; sourceTree = "<group>"; };
 		4C3D9A57BD4DB6E872074838 /* Pods_VocMaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VocMaster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		75713B3612429D7B01036C5C /* Pods_VocMasterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VocMasterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				2003DCF61DB90A0D00835FA4 /* Base */,
+				20EE27FC1DBE5110007288CD /* Main */,
 				2003DCED1DB8FE9200835FA4 /* Splash */,
 			);
 			name = Modules;
@@ -140,6 +155,7 @@
 		2003DCE01DB8FC2C00835FA4 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				20EE28931DC0E8D3007288CD /* VMNavigationManager.swift */,
 			);
 			name = Managers;
 			sourceTree = "<group>";
@@ -224,6 +240,7 @@
 		20C06C0F1DB8EE9A00C8CF56 /* VocMaster */ = {
 			isa = PBXGroup;
 			children = (
+				20EE28901DC0E5D0007288CD /* ModuleBuilder */,
 				2003DCE01DB8FC2C00835FA4 /* Managers */,
 				2003DCDF1DB8FC2400835FA4 /* Services */,
 				2003DCDE1DB8FC1F00835FA4 /* Models */,
@@ -249,6 +266,42 @@
 				20C06C321DB8EE9A00C8CF56 /* Info.plist */,
 			);
 			path = VocMasterUITests;
+			sourceTree = "<group>";
+		};
+		20EE27FC1DBE5110007288CD /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				20EE27FD1DBE511E007288CD /* Presenter */,
+				20EE27FE1DBE5124007288CD /* View */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		20EE27FD1DBE511E007288CD /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				20EE28051DBE527A007288CD /* MainPresenter.swift */,
+				20EE28071DBE5298007288CD /* MainPresenterProtocol.swift */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		20EE27FE1DBE5124007288CD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				20EE27FF1DBE51B8007288CD /* MainViewController.swift */,
+				20EE28001DBE51B8007288CD /* MainViewController.xib */,
+				20EE28031DBE523F007288CD /* MainViewProtocol.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		20EE28901DC0E5D0007288CD /* ModuleBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				20EE28911DC0E5F6007288CD /* VMModuleBuilder.swift */,
+			);
+			name = ModuleBuilder;
 			sourceTree = "<group>";
 		};
 		634F37E2A68E704CF276FAAE /* Frameworks */ = {
@@ -393,6 +446,7 @@
 				2003DCEC1DB8FD6400835FA4 /* Assets.xcassets in Resources */,
 				2003DCF31DB8FEE600835FA4 /* SplashViewController.xib in Resources */,
 				2003DCDB1DB8FBAF00835FA4 /* Default-568h@2x.png in Resources */,
+				20EE28021DBE51B8007288CD /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -555,15 +609,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20EE28081DBE5298007288CD /* MainPresenterProtocol.swift in Sources */,
 				2003DCEB1DB8FD6400835FA4 /* AppDelegate.swift in Sources */,
+				20EE28941DC0E8D3007288CD /* VMNavigationManager.swift in Sources */,
 				2003DCFA1DB9149C00835FA4 /* SplashViewProtocol.swift in Sources */,
 				2003DD021DB91A1400835FA4 /* VMBaseViewController.swift in Sources */,
 				2003DD041DB91A3C00835FA4 /* VMBaseViewProtocol.swift in Sources */,
 				2003DCF21DB8FEE600835FA4 /* SplashViewController.swift in Sources */,
 				2003DCFE1DB9157700835FA4 /* SplashPresenterProtocol.swift in Sources */,
 				2003DD061DB91A7F00835FA4 /* VMBasePresenter.swift in Sources */,
+				20EE28921DC0E5F6007288CD /* VMModuleBuilder.swift in Sources */,
+				20EE28061DBE527A007288CD /* MainPresenter.swift in Sources */,
 				2003DCFC1DB9155400835FA4 /* SplashPresenter.swift in Sources */,
 				2003DD081DB91AC600835FA4 /* VMBasePresenterProtocol.swift in Sources */,
+				20EE28011DBE51B8007288CD /* MainViewController.swift in Sources */,
+				20EE28041DBE523F007288CD /* MainViewProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,6 +10,7 @@ import UIKit
 
 class SplashViewController: VMBaseViewController, SplashViewProtocol
 {
+    @IBOutlet weak var aicLoading: UIActivityIndicatorView!
     @IBOutlet weak var lblLoadingText: UILabel!
     
     var presenter: SplashPresenterProtocol!;
@@ -17,21 +18,27 @@ class SplashViewController: VMBaseViewController, SplashViewProtocol
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        
         self.presenter.viewDidLoad()
     }
-
+    
     override func didReceiveMemoryWarning()
     {
         super.didReceiveMemoryWarning()
     }
     
-    func setLoadingText(loadingText: String)
+    func startAnimation(loadingText: String)
     {
-        lblLoadingText.text = loadingText;
+        self.aicLoading.startAnimating()
+        self.lblLoadingText.text = loadingText
+    }
+    
+    func stopAnimation()
+    {
+        self.aicLoading.stopAnimating()
+    }
+    
+    deinit
+    {
         
-        sleep(10);
-        
-        self.presenter.loadingAnimationFinished()
     }
 }

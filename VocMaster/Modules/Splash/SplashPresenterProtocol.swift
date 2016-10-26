@@ -8,6 +8,6 @@
 
 protocol SplashPresenterProtocol: VMBasePresenterProtocol
 {
-    func loadingAnimationFinished();
+    
 }
 

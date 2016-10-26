@@ -17,11 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     {
         self.window = UIWindow(frame: UIScreen.main.bounds)
         
-        let splashViewController = SplashViewController(nibName: "SplashViewController", bundle: nil)
-        let splashPresenter = SplashPresenter(view: splashViewController);
-        splashViewController.presenter = splashPresenter;
-        
-        self.window?.rootViewController = splashViewController
+        let  splashViewController = VMModuleBuilder.buildSplashModule()
+        self.window?.rootViewController = splashViewController;
         self.window?.makeKeyAndVisible()
         
         return true

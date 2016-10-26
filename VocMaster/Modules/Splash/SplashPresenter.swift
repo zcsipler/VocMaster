@@ -19,11 +19,14 @@ class SplashPresenter: VMBasePresenter, SplashPresenterProtocol
     
     override func viewDidLoad()
     {
-        self.view.setLoadingText(loadingText:"Loading...");
-    }
-    
-    func loadingAnimationFinished()
-    {
+        self.view.startAnimation(loadingText:"Loading");
         
+        let deadline = DispatchTime.now() + 2
+        DispatchQueue.main.asyncAfter(deadline: deadline)
+        {
+            
+            self.view.stopAnimation()
+            VMNavigationManager.sharedInstance.navigateToMainScreen()
+        }
     }
 }
